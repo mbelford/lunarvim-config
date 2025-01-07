@@ -5,9 +5,10 @@ lvim.plugins = {
   { "tpope/vim-fugitive" },
   { "vim-test/vim-test" },
   { "nvim-treesitter/nvim-treesitter-context" },
-  { "Exafunction/codeium.vim" },
   { "jparise/vim-graphql" },
   { "hashivim/vim-terraform" },
+  { "github/copilot.vim" },
+  { 'eandrju/cellular-automaton.nvim' },
   {
     "mxsdev/nvim-dap-vscode-js",
     lazy = true,
