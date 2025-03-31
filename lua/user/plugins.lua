@@ -10,6 +10,15 @@ lvim.plugins = {
   { "github/copilot.vim" },
   { 'eandrju/cellular-automaton.nvim' },
   {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    build = "cd app && yarn install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+    end,
+    ft = { "markdown" },
+  },
+  {
     "mxsdev/nvim-dap-vscode-js",
     lazy = true,
     dependencies = {
