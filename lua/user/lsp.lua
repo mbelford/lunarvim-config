@@ -27,8 +27,12 @@ formatters.setup {
       "gql",
       "md"
     }
+  },
+  {
+    name = "ktlint",
   }
 }
+
 
 lvim.format_on_save = true
 

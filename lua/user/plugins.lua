@@ -7,7 +7,7 @@ lvim.plugins = {
   { "nvim-treesitter/nvim-treesitter-context" },
   { "jparise/vim-graphql" },
   { "hashivim/vim-terraform" },
-  { "github/copilot.vim" },
+  --   { "github/copilot.vim" },
   { 'eandrju/cellular-automaton.nvim' },
   {
     "iamcco/markdown-preview.nvim",
